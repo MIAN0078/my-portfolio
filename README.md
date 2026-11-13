@@ -1,127 +1,16 @@
-# My Portfolio
+# React + Vite
 
-A personal portfolio website for an AI/ML Engineer showcasing projects, technical skills, experience, and ways to get in touch.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Overview
+Currently, two official plugins are available:
 
-This repository contains the source code for my portfolio website, designed to present:
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-- Background and professional summary
-- AI/ML projects and case studies
-- Technical skills and expertise
-- Work experience and education
-- Contact information and collaboration opportunities
+## React Compiler
 
-## Features
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-- Responsive and modern portfolio design
-- Project showcase section
-- Skills and technologies overview
-- Experience timeline
-- Contact and social links
-- Clean, professional presentation for recruiters and collaborators
+## Expanding the ESLint configuration
 
-## Tech Stack
-
-This project can be adapted to use the following stack depending on your implementation:
-
-- HTML / CSS / JavaScript
-- React / Next.js
-- Tailwind CSS
-- Vercel / Netlify deployment
-
-If you are using a specific stack in this repository, replace this section with the actual framework and tooling you are using.
-
-## Project Structure
-
-```bash
-.
-├── public/
-├── src/
-├── components/
-├── pages/
-├── styles/
-├── package.json
-├── README.md
-└── .gitignore
-```
-
-Adjust this structure to match the actual files in your project.
-
-## Getting Started
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/MIAN0078/my-portfolio.git
-cd my-portfolio
-```
-
-2. Install dependencies:
-
-```bash
-npm install
-```
-
-3. Run the development server:
-
-```bash
-npm run dev
-```
-
-4. Open your browser and visit:
-
-```bash
-http://localhost:3000
-```
-
-## Available Scripts
-
-Depending on your stack, common scripts may include:
-
-```bash
-npm run dev
-npm run build
-npm run start
-npm run lint
-```
-
-## Portfolio Sections
-
-Consider including sections such as:
-
-- About Me
-- Skills
-- Projects
-- Experience
-- Education
-- Certifications
-- Contact
-
-## Featured Projects
-
-Add a few of your best AI/ML or software engineering projects here:
-
-- Project Name — Short description and impact
-- Project Name — Short description and technologies used
-- Project Name — Short description and key results
-
-## Contact
-
-Feel free to reach out for collaborations, opportunities, or technical discussions.
-
-- GitHub: https://github.com/MIAN0078
-- Email: your.email@example.com
-- LinkedIn: your-linkedin-profile
-
-## License
-
-This project is open source and available under the MIT License.
-
-## Acknowledgements
-
-Thanks to everyone who inspired and supported this work.
-
----
-
-You can customize this README further by adding your real project details, live demo URL, screenshots, and exact tech stack used in the repository.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
